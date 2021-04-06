@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Caesar cipher</title>
+   <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+   <!-- if u wanna see the text find the hidden meaning -->
+   <div class="10">
+      10.Шифр Цезаря (само шифрование и дешифрование(ключ для дешифровки число от 1 - 20) шифр прост к примеру ключ для
+      дешифровки это число 4 значит буква "А" в данном шифре это "Г" и т.д.
+
+      К примеру:
+      Шифр "ВФВЛ НАГКФ ГРНЮЪКЖ К ФРНУФЭЖ РЕЧЕШЭ" ключ для дешифровки по Цезарю = 2
+      Дешифровка = "Атай любит большие и толстые огурцы"
+   </div>
+
+   <form id="eform">
+      <h1>Encryption</h1>
+      <input type="number" name="number" placeholder="Type key for encryption" id="ekey">
+      <input type="text" name="string" placeholder="Type string to encrypt" id="einput">
+      <h2 id="estatus"></h2>
+      <button type="submit" id="ebtn">Encrypt</button>
+   </form>
+
+   <form id="dform">
+      <h1>Decryption</h1>
+      <input type="number" name="number" placeholder="Type key for decryption" id="dkey">
+      <input type="text" name="string" placeholder="Type string to decrypt" id="dinput">
+      <h2 id="dstatus"></h2>
+      <button type="submit" id="dbtn">Decrypt</button>
+   </form>
+
+   <div class="wishes">I wish u success</div>
+   <div class="wishes">With best Regards "veggie wrangler"</div>
+
+   <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
